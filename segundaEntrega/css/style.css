@@ -52,3 +52,14 @@ header {
 }
 
 /* BODY CSS */
+
+/* IMAGENES */
+.image_header_container {
+    display: flex;
+    width: 100vw;
+}
+
+.image_header_container img{
+    width: 10%;
+    border-bottom: 5px solid orange;
+}
