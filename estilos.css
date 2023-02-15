@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main_container .red{
+    background-color: red;
+}
+
+.main_container .green{
+    background-color: green;
+}
+
+.main_container .blue{
+    background-color: blue;
+}
+
+.sub_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.sub_container div{
+    width: 30px;
+    height: 100vh;
+    color: white;
+    font-size: 50px;
+}
+
+
+.container-fluid{
+    background-color: black;
+}
+
+.container-fluid a{
+    color: orange;
+    font-size: 40px;
+}
+
+.header_container{
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    /* display: flex; */
+}
+
+.collapse{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.collapse a{
+    font-size: 25px;
+}
+.collapse .nav-link:hover {
+    background-color: orange;
+}
+
+.navbar-brand:hover {
+    background-color: orange;
+}
