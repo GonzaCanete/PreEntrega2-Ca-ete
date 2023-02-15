@@ -64,6 +64,19 @@ header {
     border-bottom: 5px solid orange;
 }
 
+/* TITULO */
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: double;
+    text-decoration: underline 5px solid orange;
+}
+
+/* GRIDS */
+
+
 /* OCULTAR LA "IMAGEBAR" */
 @media (max-width: 991px){
     .image_header_container {
