@@ -63,3 +63,10 @@ header {
     width: 10%;
     border-bottom: 5px solid orange;
 }
+
+/* OCULTAR LA "IMAGEBAR" */
+@media (max-width: 991px){
+    .image_header_container {
+        visibility: hidden;
+    }   
+}
