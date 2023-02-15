@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* DISEÑO DEL NAVBAR DE BOOTSTRAP */
+header {
+    position: sticky;
+    top: 0;
+}
+
+.container-fluid {
+    background-color: black;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
+
+.collapse{
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse .nav-link:hover {
+    background-color: orange;
+}
+
+.collapse a{
+    color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    text-decoration: double;
+}
+
+.container-fluid .navbar-brand {
+    color: orange;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    text-decoration: double;
+}
+
+.container-fluid .navbar-brand:hover{
+    background-color: orange;
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: orange;
+}
+
+/* BODY CSS */
