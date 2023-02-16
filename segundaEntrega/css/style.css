@@ -56,7 +56,7 @@ header {
 /* IMAGENES */
 .image_header_container {
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 
 .image_header_container img{
@@ -75,8 +75,52 @@ header {
 }
 
 /* GRIDS */
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 40px;
+    grid-template-areas: 
+    "section1 section2 section3";
 
+}
+section#sectionLeft{
+    grid-area: section1;
+}
 
+section#sectionMain{
+    grid-area: section2;
+}
+
+section#sectionRight{
+    grid-area: section3;
+}
+.left_aside {
+    position: static;
+    width: 20%;
+    position: fixed;
+    left: 0;
+
+}
+.left_aside img {
+    width: 100%;
+    height: 15vh;
+}
+.right_aside {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    right: 0;
+}
+
+.right_aside img {
+    width: 100%;
+    height: 15vh;
+}
+
+.main_column {
+    position: relative;
+    left: 20%;
+}
 /* OCULTAR LA "IMAGEBAR" */
 @media (max-width: 991px){
     .image_header_container {
