@@ -117,15 +117,12 @@ section#sectionRight{
     height: 15vh;
 }
 
-.main_column {
-    position: relative;
-    left: 20%;
-}
 /* OCULTAR LA "IMAGEBAR" */
 @media (max-width: 991px){
     .image_header_container {
         visibility: hidden;
     }  
+    /* OCULTAR LOS ASIDES */
     .left_aside {
         visibility: hidden;
     } 
