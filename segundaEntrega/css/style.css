@@ -165,4 +165,21 @@ section#sectionRight{
     .right_aside {
         visibility: hidden;
     }
+
+    /* MODIFICO LAS COLUMNAS */
+    .grid_container {
+        grid-template-columns: 1fr;
+    }
+
+    /* MODIFICO LAS IMAGENES */
+
+    .article_img_container {
+        display: block;
+    }
+
+    .article_img_container img {
+        width: 50vw;
+        height: 40vh;
+        margin-left: 20%;
+    }
 }
