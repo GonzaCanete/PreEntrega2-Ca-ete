@@ -125,5 +125,11 @@ section#sectionRight{
 @media (max-width: 991px){
     .image_header_container {
         visibility: hidden;
-    }   
+    }  
+    .left_aside {
+        visibility: hidden;
+    } 
+    .right_aside {
+        visibility: hidden;
+    }
 }
