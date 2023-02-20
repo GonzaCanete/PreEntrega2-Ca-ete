@@ -9,6 +9,7 @@
 header {
     position: sticky;
     top: 0;
+    z-index: 1;  /* Esto lo hago para que se superponga al relative y absolute de las imagenes en ranking */
 }
 
 .container-fluid {
@@ -64,6 +65,24 @@ header {
     border-bottom: 5px solid orange;
 }
 
+.item_container img {
+    width: 10vw;
+    border: 5px solid orange;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.img_item_container {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.img_item_container h2 {
+    position: absolute;
+    background-color: green;
+    border-radius: 20px;
+}
 /* TITULO */
 
 .title {
@@ -140,8 +159,8 @@ section#sectionRight{
     text-decoration: double;
 }
 .article_img_container img{
-    width: 30%;
-    height: 30%;
+    width: 30vw;
+    height: 30vh;
     margin: 15px;
     border: 5px solid orange;
     border-radius: 10px;
@@ -172,6 +191,25 @@ section#sectionRight{
 
 .article_iframe_container a {
     visibility: hidden;
+}
+
+.top_article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_article li {
+    color: orange;
+    margin-bottom: 10px;
+    border-bottom: 2px solid orange;
+    font-size: 30px;
+}
+
+.item_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* FOOTER */
 
