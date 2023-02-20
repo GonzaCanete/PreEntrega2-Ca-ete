@@ -54,6 +54,13 @@ header {
 
 /* BODY CSS */
 
+/* AJUSTE PARA EL FOOTER (PARA QUE NO QUEDE A MITAD DE PAGINA CUANDO NO HAY CONTENIDO */
+body {
+    position: relative;
+    padding-bottom: 20vh;
+    min-height: 100vh;
+}
+
 /* IMAGENES */
 .image_header_container {
     display: flex;
@@ -219,6 +226,29 @@ section#sectionRight{
     
 }
 
+input {
+    width: 30%;
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 5vh;
+    margin-top: 10px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+
+button {
+    background-color: orange;
+    border: 2px solid orange;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 50%;
+    border-radius: 15px;
+}
+
+button:hover {
+    /* font-style: italic; */
+    text-decoration: underline;
+}
 /* FOOTER */
 
 .Footer {
@@ -227,6 +257,7 @@ section#sectionRight{
     width: 100%;
     height: 10vh;
     position: absolute;
+    bottom: 0;
     justify-content: center;
     align-items: center;
     border-top: 5px solid orange;
