@@ -305,12 +305,19 @@ button:hover {
 
     .article_img_container {
         display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article_img_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .article_img_container img {
         width: 50vw;
         height: 40vh;
-        margin-left: 20%;
     }
     
     /* MODIFICO EL FOOTER */
@@ -336,8 +343,18 @@ button:hover {
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: underline;
         font-size: 30px;
-        margin-left: 30%;
     }
 
-    
+    .article_iframe_container {
+        text-align: center;
+    }
+
+    .article_p_container {
+        font-size: 30px;
+    }
+
+    #index_image {
+        display: block;
+        text-align: center;
+    }
 }
