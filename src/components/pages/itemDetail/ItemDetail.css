@@ -1,0 +1,9 @@
+.itemDetailContainer {
+    text-align: center;
+}
+
+.itemDetailContainer button {
+    background-color: orange;
+    margin: auto;
+}
+
